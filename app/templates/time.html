@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+  <style>
+    .time-text{
+      padding: 10px;
+      margin: 5px;
+      background-color: lightgrey;
+    }
+  </style>
+
+  <h1 th:text="'Time: ' +  ${time}" class="time-text"></h1>
+
+</body>
+</html>
